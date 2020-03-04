@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="followthestack"
+           fetch="github:/martinhomuth/" />
+
+  <remote  name="hardkernel"
+           fetch="https://github.com/hardkernel/" />
+
+  <project path="common" name="linux" remote="hardkernel" revision="refs/heads/odroidn2-4.9.y-android" />
+</manifest>
